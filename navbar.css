@@ -1,0 +1,55 @@
+ 
+
+ .float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:100px;
+  right:40px;
+  background-color:#0C9;
+  border-color: blanchedalmond;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+  margin-top:22px;
+}
+.float:hover{
+background-color: black;
+color: white;
+transition: 0.6s ease;
+opacity: 0.9;
+  }
+
+ .nav-item{
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 5px;}
+    #myProgress {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: #4CAF50;
+}
+.a:hover {
+ color:orange;
+}
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.b:hover{
+  opacity: 0.5;
+}
+.section-title {
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 8px;
+}
